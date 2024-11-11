@@ -1,0 +1,9 @@
+useDynLib(TwoPhaseScreenTest, .registration=TRUE)
+importFrom(Rcpp, evalCpp)
+import(RcppArmadillo)
+importFrom("stats", "cov", "quantile", "var",
+           "xtabs", "optim", "binomial", "glm", "predict")
+importFrom("MASS", "ginv")
+export(twoPhaseScreen_design)
+export(twoPhaseScreen_est)
+export(twoPhaseScreen_predict)

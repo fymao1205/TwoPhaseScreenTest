@@ -1,0 +1,13 @@
+Package: TwoPhaseScreenTest
+Title: TwoPhaseScreenTest
+Version: 0.0.3
+Date: 2024-11-05
+Author: Fangya Mao<fangya.mao@nih.gov>, Li C. Cheung<li,cheung@nih.gov>, and Richard J. Cook<rjcook@uwaterloo.ca> 
+Depends: R (>= 3.5.0), MASS
+Description: Two-phase designs for assessing screening tests in the management of screening cohorts.
+Maintainer: William Wheeler <WheelerB@imsweb.com>
+License: GPL-2
+Imports: Rcpp (>= 1.0.10), RcppArmadillo
+LinkingTo: Rcpp, RcppArmadillo
+NeedsCompilation: yes
+Packaged: 2024-11-05 14:24:50 UTC; wheelerwi
